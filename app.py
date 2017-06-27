@@ -17,7 +17,7 @@ def Page2():
 	return render_template('Page2.html')
 
 @app.route('/Page3', methods=['GET','POST'])
-def Page2():
+def Page3():
 	return render_template('Page3.html')
 
 if __name__ == '__main__':
