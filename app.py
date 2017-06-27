@@ -1,19 +1,4 @@
 from flask import Flask, render_template, request, redirect, url_for
-from pandas import DataFrame, to_datetime
-import pandas as pd
-import numpy as np
-import json
-import requests
-import time
-import datetime
-from bokeh.plotting import figure, output_file, show
-from bokeh import embed
-from bokeh.charts import TimeSeries, show, output_file
-from bokeh.layouts import column
-from bokeh.resources import CDN
-from bokeh.embed import components
-import os
-import cgi
 
 
 
