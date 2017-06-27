@@ -8,13 +8,13 @@ app = Flask(__name__)
 def main():
   return redirect('/Page1')
 
-@app.route('/Page1')
+@app.route('/Page1', methods=['GET','POST'])
 def Page1():
-  return render_template('Page1.html', methods=['GET','POST'])
+  return render_template('Page1.html')
 
-@app.route('/Page2')
+@app.route('/Page2', methods=['GET','POST'])
 def Page2():
-	return render_template('Page2.html', methods=['GET','POST'])
+	return render_template('Page2.html')
 
 if __name__ == '__main__':
   app.run(port=33507)
